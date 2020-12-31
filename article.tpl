@@ -88,18 +88,18 @@
             
             <!-- 右边文章 -->
             <div class="right_article">
-                {assign var="productlist" value=$productdata->TakeProductListByName(article2,0,4)}
-                {foreach from=$productlist item=productinfo}
+                {assign var="newslist" value=$articledata->TakeArticleListByName("article",0,100)}
+                {foreach from=$newslist item=newsinfo}
                 <div class="article_one">
                     
                     <div class="article_img">
-                        <img src="{$productinfo->thumb}" alt="">
+                        <img src="{$newsinfo->thumb}" alt="">
                     </div>
                     <!-- 文章内容 -->
                     <div class="article_text">
-                        <h3>{$productinfo->name}</h3>
-                        <p>{$productinfo->seokeywords}</p>
-                        <span>浏览量：{$productinfo->viewcount}</span>
+                        <h3><a href="{formaturl type="article" siteurl=$siteurl name=$newsinfo->filename}">{$newsinfo->title}</a></h3>
+                        <p>{$newsinfo->seodescription}</p>
+                        <span>浏览量：{$newsinfo->viewcount}</span>
                     </div>
                 </div>
                 {/foreach}
