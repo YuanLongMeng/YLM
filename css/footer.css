@@ -1,0 +1,49 @@
+/* 底部 */
+.bottom{
+    margin-top: 400px;
+    height: 350px;
+    background-color: rgb(33, 55, 92);
+}
+.box_item{
+    margin-top: 40px;
+}
+/* 友情链接 */
+.box_item .friend_link span{
+    font-size: 20px;
+    color: silver;
+}
+/* 友情链接a标签 */
+.box_item .friend_link a{
+    font-size: 20px;
+    color: silver;
+}
+.bottom_nav,
+
+.bottom_nav .friend_item{
+    display: flex;
+}
+/* 导航logo */
+.bottom_nav .item_logo{
+   margin-top: 50px;
+   padding: 10px;
+}
+.bottom_nav .friend_item{
+    margin-top: 68px;
+}
+.bottom_nav .friend_item a{
+    padding-left: 10px;
+    margin-left: 40px;
+    color: silver;
+    font-size: 17px;
+}
+/* 二维码 */
+.qrcode .wx_qrcode{
+    /* display: flex; */
+    margin-left: 1000px;
+}
+/* 备案号 */
+.beianhao{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(98, 98, 98);
+}

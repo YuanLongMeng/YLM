@@ -1,0 +1,694 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+/* 头部 */
+.header{
+    height: 700px;
+    background: url(../img/首页/0_img_banner3_bg.png) no-repeat right;
+}
+.head {
+    position: fixed;
+    top: 0;
+    background-color:#007aff ;
+    width: 100%;
+    z-index: 999;/*优先显示*/
+}
+.head .container{
+    height: 80px;
+    display: flex;  
+}
+/* logo */
+.container .logo{
+    line-height: 80px;
+    width: 140px;
+    height: 80px;
+}
+
+/* 头部导航栏 */
+.container .nav_bar .nav{
+    top: 0px;
+    position: static;
+    width: 710px;
+    height: 80px;
+    display: flex;
+    font-size: 16px;
+    padding-left: 50px;
+    margin-left: 100px;
+}
+.head .nav_bar .nav a{
+    color: white;
+    margin-top: 20px;
+}
+
+/* 登录按钮 */
+.container .login{
+    width: 110px;
+    height: 40px;
+    margin-top: 20px;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 100px;
+}
+.login a{
+    color: white;
+    line-height: 40px;
+}
+/* 头部广告 */
+.head_ad{
+    height: 610px;
+}
+.text_top{
+    /* background-color: red; */
+    height: 100px;
+    width: 250px;
+    margin-top: 250px;
+    margin-left: 400px;
+    color: white;
+}
+.text_top p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.now{
+    width: 150px;
+    height: 40px;
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+.now a{
+    color: white;
+    font-size: 18px;
+    line-height: 40px;
+}
+.header .head_ad{
+    display: flex;
+    justify-content: space-between;
+}
+.ad_img img{
+    height: 810px;
+}
+
+
+
+/* 排名 */
+.ranking{
+    height: 400px;
+    margin-top: 50px;
+    /* background-color: turquoise; */
+}
+.ranking .container{
+    display: flex;
+    justify-content: space-between;
+}
+/* 排名头部标题 */
+.ranking_top{
+    width: 800px;
+    height: 50px;
+    /* background-color: blue; */
+    margin: auto;
+    text-align: center;
+    /* border-bottom: 5px solid blue; */
+}
+.ranking_top p{
+    color: silver;
+    margin-top: 40px;
+}
+
+.row .ranking_list{
+    display: flex;
+    margin-top: 100px;
+}
+/* 项目1 */
+.ranking_list .list_one{
+    width: 250px;
+    height: 180px;
+    box-shadow: 1px 1px  5px 1px silver;
+    border: 1px solid white;
+}
+.list_one .one_top{
+    display: flex;
+}
+.one_top img{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.one_top p{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.list_one .text_one{
+    color: silver;
+    margin-top: 20px;
+}
+
+
+
+
+/* 项目2 */
+.ranking_list .list_tow{
+    width: 250px;
+    height: 180px;
+    margin-left: 20px;
+    box-shadow: 1px 1px  5px 1px silver;
+    border: 1px solid white;
+}
+.list_tow .tow_top{
+    display: flex;
+}
+.tow_top img{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.tow_top p{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.list_tow .text_tow{
+    color: silver;
+    margin-top: 20px;
+}
+
+
+
+
+/* 项目3 */
+.ranking_list .list_three{
+    width: 250px;
+    height: 180px;
+    margin-left: 20px;
+    box-shadow: 1px 1px  5px 1px silver;
+    border: 1px solid white;
+}
+.list_three .three_top{
+    display: flex;
+}
+.three_top img{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.three_top p{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.list_three .text_three{
+    color: silver;
+    margin-top: 20px;
+}
+
+
+/* 项目4 */
+.ranking_list .list_four{
+    width: 250px;
+    height: 180px;
+    margin-left: 20px;
+    box-shadow: 1px 1px  5px 1px silver;
+    border: 1px solid white;
+}
+.list_four .four_top{
+    display: flex;
+}
+.four_top img{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.four_top p{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.list_four .text_four{
+    color: silver;
+    margin-top: 20px;
+}
+
+/* 问题 */
+.problem{
+    margin-top: 150px;
+    height: 1700px;
+    /* background-color: yellowgreen; */
+}
+.container{
+    height: 100%;
+    /* background-color: yellow; */
+}
+/* 头部 */
+.problem_top{
+    width: 400px;
+    height: 80px;
+    margin: auto;
+    text-align: center;
+    /* border-bottom: 5px solid blue; */
+}
+.problem_top p{
+    color: silver;
+    margin-top: 80px;
+}
+
+/* 问题1 */
+.container .problem_one{
+    display: flex;
+    justify-content: space-between;
+}
+.problem_one{
+    margin-top: 100px;
+    height: 450px;
+    /* background-color: skyblue; */
+    border-bottom: 1px solid silver;
+}
+/* 问题1右边 */
+.problem_one .one_right{
+    width: 550px;
+    height: 400px;
+    /* background-color: slateblue; */
+}
+.one_right .right_top{
+    display: flex;
+}
+.one_right .right_top img{
+    margin-top: 20px;
+    width: 23px;
+    height: 23px;
+}
+.right_top h4{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.right_tow{
+    width: 480px;
+    margin-top: 50px;
+    color: silver;
+    font-size: 16px;
+    margin-left: 40px;
+}
+.right_three{
+    margin-top: 50px;
+}
+.right_four{
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 480px;
+    font-size: 20px;
+}
+.right_five{
+    text-align: right;
+}
+
+
+
+
+/* 问题2 */
+.container .problem_tow{
+    display: flex;
+    justify-content: space-between;
+}
+.problem_tow{
+    margin-top: 50px;
+    height: 450px;
+    /* background-color: skyblue; */
+    border-bottom: 1px solid silver;
+}
+/* 问题2右边 */
+.problem_tow .tow_left{
+    width: 550px;
+    height: 400px;
+    /* background-color: slateblue; */
+}
+.tow_left .left_top{
+    display: flex;
+}
+.tow_left .left_top img{
+    margin-top: 20px;
+    width: 23px;
+    height: 23px;
+}
+.left_top h4{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.left_tow{
+    width: 480px;
+    margin-top: 50px;
+    color: silver;
+    font-size: 16px;
+    margin-left: 40px;
+}
+.left_three{
+    margin-top: 50px;
+}
+.left_four{
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 480px;
+    font-size: 20px;
+}
+.left_five{
+    text-align: right;
+}
+
+/* 问题3 */
+.container .problem_three{
+    display: flex;
+    justify-content: space-between;
+}
+.problem_three{
+    margin-top: 50px;
+    height: 400px;
+    /* background-color: skyblue; */
+}
+.three_right .right_top img{
+    margin-top: 20px;
+    width: 23px;
+    height: 23px;
+}
+.three_right .right_top{
+    display: flex;
+}
+.three_right .right_tow{
+    margin-right: 20px;
+}
+
+/* 定制优化方案 */
+.optimization{
+    /* width: 100%; */
+    height: 360px;
+    margin-top: 100px;
+    background: url(../img/首页/7_img.png);
+}
+.optimization .optimization_text_top{
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 400px;
+    height: 100px;
+    width: 500px;
+    font-size: 40px;
+    color: white;
+}
+
+.optimization .optimization_text_button{
+    margin-top: 50px;
+    margin-left: 400px;
+    /* text-align: center; */
+    margin-top: 20px;
+    font-size: 15px;
+    color: white;
+}
+/* 自主研发的优势 */
+.advantage{
+    margin-top: 150px;
+}
+h2::after{
+    width: 120px;
+    height: 4px;
+    display: block;
+    content: '';
+    background-color: blue;
+    margin: auto;
+    margin-top: 30px;
+
+}
+.row .top{
+    text-align: center;
+}
+.row .top p{
+    margin-top: 50px;
+}
+.demo .row {
+    text-align: center; 
+}
+.demo .row p{
+    color: silver;
+}
+.row .advantage_two{
+    /* height: 300px; */
+    /* border: 1px solid silver; */
+    margin-top: 100px;
+}
+
+
+/* 选择超快排 */
+.choice{
+    /* background-color: skyblue; */
+    margin-top: 100px;
+}
+.row .top p{
+    font-size: 16px;
+}
+.container .choice_item{
+    height: 100px;
+    /* width: 1200px; */
+    display: flex;
+    /* margin: auto; */
+    margin-top: 100px;
+}
+.container .choice_item img{
+    margin-left: 130px;
+}
+.container .choice_item p{
+    margin-left: 140px;
+}
+.choice_item_img{
+    display: flex;
+    margin-top: 70px;
+    /* margin: auto; */
+    width: 100%;
+    height: 450px;
+    background-color: rgb(201, 231, 240);
+}
+.choice_item_img .choice_text{
+    /* background-color: blueviolet; */
+    width: 450px;
+    flex-wrap: wrap;
+    font-size: 25px;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+.choice_item_img .choice_img{
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+/* 流量 */
+.flow{
+    height: 500px;
+    /* background-color: burlywood; */
+    margin-top: 200px;
+}
+/* 流量标题 */
+.container .row{
+    /* width: 1400px; */
+}
+.flow_top{
+    text-align: center;
+}
+.flow_top p{
+    font-size: 15px;
+    margin-top: 50px;
+    color: silver;
+}
+/* 项目 */
+.container .flow_item{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.flow_item .item_one{
+    border-right: 1px solid silver;
+    width: 300px;
+}
+.flow_item .item_tow{
+    border-right: 1px solid silver;
+    width: 300px;
+}
+.flow_item .item_three{
+    border-right: 1px solid silver;
+    width: 300px;
+}
+.flow_item .item_four{
+    border-left: 1px solid silver;
+    width: 300px;
+}
+.container .flow_item h2{
+    font-size: 40px;
+    color: blue;
+}
+.container .flow_item p{
+    color: silver;
+    font-size: 13px;
+}
+.container .flow_item span{
+    font-size: 16px;
+    color: slateblue;
+}
+
+/* 客户行业 */
+.client{
+    margin-top: 100px;
+}
+.client_top{
+    text-align: center;
+}
+.client_top p{
+    margin-top: 50px;
+    color: silver;
+}
+.client_item{
+    border: 1px solid silver;
+    height: 260px;
+    width: 340px;
+}
+.client_item img{
+    width: 340px;
+    height: 200px;
+}
+.client_item .item_text{
+    line-height: 60px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* 优化排名 */
+.rankingnow{
+    margin-top: 100px;
+}
+.container .rankingnow_top{
+    text-align: center;
+}
+.container .rankingnow_top p{
+    color: silver;
+    font-size: 15px;
+    margin-top: 50px;
+}
+.rankingnow_list{
+    margin-top: 70px;
+}
+/* 项目1 */
+.rankingnow_one{
+    display: flex;
+    font-size: 17px;
+}
+.rankingnow_one p{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+/* 项目2 */
+.rankingnow_tow{
+    display: flex;
+    font-size: 17px;
+}
+.rankingnow_tow p{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+/* 项目3 */
+.rankingnow_three{
+    display: flex;
+    font-size: 17px;
+}
+.rankingnow_three p{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+/* 项目4 */
+.rankingnow_four{
+    display: flex;
+    font-size: 17px;
+}
+.rankingnow_four p{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+
+
+/* 马上注册 */
+.nowregister{
+    margin-top: 100px;
+    height: 300px;
+    background: url(../img/首页/7_img.png);
+}
+/* 标题 */
+.nowregister_top{
+    color: white;
+    font-size: 40px;
+    
+}
+.nowregister_top p{
+    text-align: center;
+    line-height: 56px;
+}
+
+/* 马上注册按钮 */
+.nowregister_btn {
+    width: 170px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    /* line-height: 56px; */
+    margin-left: 830px;
+    margin-top: 100px;
+}
+
+/* 底部 */
+.bottom{
+    height: 350px;
+    background-color: rgb(33, 55, 92);
+}
+.box_item{
+    margin-top: 40px;
+}
+/* 友情链接 */
+.box_item .friend_link span{
+    
+    font-size: 20px;
+    color: silver;
+}
+/* 友情链接a标签 */
+.box_item .friend_link a{
+    font-size: 20px;
+    color: silver;
+}
+.bottom_nav,
+
+.bottom_nav .friend_item{
+    display: flex;
+}
+/* 导航logo */
+.bottom_nav .item_logo{
+   margin-top: 50px;
+   padding: 10px;
+}
+.bottom_nav .friend_item{
+    margin-top: 68px;
+}
+.bottom_nav .friend_item a{
+    padding-left: 10px;
+    margin-left: 40px;
+    color: silver;
+    font-size: 17px;
+}
+/* 二维码 */
+.qrcode .wx_qrcode{
+    /* display: flex; */
+    margin-left: 1000px;
+}
+/* 备案号 */
+.beianhao{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(98, 98, 98);
+}

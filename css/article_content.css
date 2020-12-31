@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+/* 头部 */
+.header{
+    height: 380px;
+    background: url(../img/文章中心/top_banner4_1.png) ;
+}
+.head .container{
+    height: 80px;
+    display: flex;  
+}
+/* logo */
+.container .logo{
+    line-height: 80px;
+    width: 140px;
+    height: 80px;
+}
+
+/* 头部导航栏 */
+.container .nav_bar .nav{
+    width: 710px;
+    height: 80px;
+    display: flex;
+    font-size: 16px;
+    padding-left: 50px;
+    margin-left: 100px;
+}
+.head .nav_bar .nav a{
+    color: white;
+    margin-top: 20px;
+}
+
+/* 登录按钮 */
+.container .login{
+    width: 110px;
+    height: 40px;
+    margin-top: 20px;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 100px;
+}
+.login a{
+    color: white;
+    line-height: 40px;
+}
+.seo_optimization{
+    text-align: center;
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    color: white;
+}
+.seo_optimization h2{
+    margin-top: 80px;
+}
+/* 面包屑导航 */
+.crumbs_nav{
+    height: 50px;
+}
+.crumbs_nav .container{
+    height: 100%;
+}
+.crumbs_nav .container p{
+    color: silver;
+    line-height: 50px;
+}
+.crumbs_nav .container a{
+    color: black;
+}
+
+
+/* 文章详情 */
+.article_content{
+    margin-top: 10px;
+    height: 1600px;
+}
+.article_content .container{
+    display: flex;
+    height: 1600px;
+    justify-content: space-between;
+}
+/* 左边 */
+.content_left{
+    width: 790px;
+}
+/* 左边头部 */
+.left_top{
+    width: 750px;
+    height: 100px;
+    border-bottom: 1px solid silver;
+}
+.left_top p{
+    margin-top: 30px;
+    color: silver;
+}
+/* 标题内容 */
+.top_content{
+    width: 750px;
+    height: 150px;
+    margin-top: 20px;
+}
+.top_content .top_img_one{
+    display: flex;
+    height: 20px;
+    justify-content: space-between;
+}
+.top_content .content_text{
+    margin: auto;
+    margin-top: 10px;
+    width: 600px;
+    color: silver;
+    font-size: 17px;
+}
+.top_content .top_img_tow{
+    margin-top: 30px;
+    display: flex;
+    height: 20px;
+    justify-content: space-between;
+}
+/* 第一段文本 */
+.text_one{
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 700px;
+    font-size: 20px;
+    height: 100px;
+}
+/* 图片 */
+.one_img img{
+    margin-left: 60px;
+    width: 600px;
+    height: 340px;
+}
+/* 第二段文本 */
+.text_tow{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 17px;
+    width: 690px;
+    height: 190px;
+}
+/* 第三段文本 */
+.text_three{
+    width: 690px;
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+
+
+
+
+/* 右边 */
+.content_right{
+    margin-left: 80px;
+    width: 400px;
+}
+/* 推荐文章头部 */
+.recommend_top{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 15px;
+    height: 50px;
+    width: 100px;
+    border-bottom: 5px solid blue;
+}
+/* 文章项目 */
+.recommend_item{
+    width: 360px;
+    height: 650px;
+    margin-left: 10px;
+    border-top: 1px solid silver;
+}
+
+/* 热门资讯头部 */
+.hot_top{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 15px;
+    height: 50px;
+    width: 100px;
+    border-bottom: 5px solid blue;
+}
+/* 资讯项目 */
+.hot_item{
+    width: 360px;
+    height: 650px;
+    margin-left: 10px;
+    border-top: 1px solid silver;
+}
+
+
+/* 项目1 */
+.item_one{
+    margin-top: 15px;
+    display: flex;
+    width: 350px;
+    height: 85px;
+}
+.item_one .item_one_text{
+    margin-left: 5px;
+}
+.item_one p{
+    margin-top: 20px;
+    font-size: 12px;
+    color: silver;
+}
+
+
+/* 项目2 */
+.item_tow{
+    margin-top: 15px;
+    display: flex;
+    width: 350px;
+    height: 85px;
+}
+.item_tow .item_tow_text{
+    margin-left: 5px;
+}
+.item_tow .item_tow_img img{
+    width: 136px;
+    height: 80px;
+}
+.item_tow p{
+    margin-top: 38px;
+    font-size: 12px;
+    color: silver;
+}
+
+
+/* 项目3 */
+.item_three{
+    margin-top: 15px;
+    display: flex;
+    width: 350px;
+    height: 85px;
+}
+.item_three .item_three_text{
+    margin-left: 5px;
+}
+.item_three .item_three_img img{
+    width: 136px;
+    height: 80px;
+}
+.item_three p{
+    margin-top: 20px;
+    font-size: 12px;
+    color: silver;
+}
+
+
+/* 项目4 */
+.item_four{
+    margin-top: 15px;
+    display: flex;
+    width: 350px;
+    height: 85px;
+}
+.item_four .item_four_text{
+    margin-left: 5px;
+}
+.item_four .item_four_img img{
+    width: 136px;
+    height: 80px;
+}
+.item_four p{
+    margin-top: 35px;
+    font-size: 12px;
+    color: silver;
+}
+
+/* 项目5 */
+.item_five{
+    margin-top: 15px;
+    display: flex;
+    width: 350px;
+    height: 85px;
+}
+.item_five .item_five_text{
+    margin-left: 5px;
+}
+.item_five .item_five_img img{
+    width: 136px;
+    height: 80px;
+}
+.item_five p{
+    margin-top: 35px;
+    font-size: 12px;
+    color: silver;
+}
+
+
+/* 项目6 */
+.item_six{
+    margin-top: 15px;
+    display: flex;
+    width: 350px;
+    height: 85px;
+}
+.item_six .item_six_text{
+    margin-left: 5px;
+}
+.item_six .item_six_img img{
+    width: 136px;
+    height: 80px;
+}
+.item_six p{
+    margin-top: 20px;
+    font-size: 12px;
+    color: silver;
+}
+/* 底部 */
+.bottom{
+    height: 350px;
+    background-color: rgb(33, 55, 92);
+}
+.box_item{
+    margin-top: 40px;
+}
+/* 友情链接 */
+.box_item .friend_link span{
+    font-size: 20px;
+    color: silver;
+}
+/* 友情链接a标签 */
+.box_item .friend_link a{
+    font-size: 20px;
+    color: silver;
+}
+.bottom_nav,
+
+.bottom_nav .friend_item{
+    display: flex;
+}
+/* 导航logo */
+.bottom_nav .item_logo{
+   margin-top: 50px;
+   padding: 10px;
+}
+.bottom_nav .friend_item{
+    margin-top: 68px;
+}
+.bottom_nav .friend_item a{
+    padding-left: 10px;
+    margin-left: 40px;
+    color: silver;
+    font-size: 17px;
+}
+/* 二维码 */
+.qrcode .wx_qrcode{
+    /* display: flex; */
+    margin-left: 1000px;
+}
+/* 备案号 */
+.beianhao{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(98, 98, 98);
+}

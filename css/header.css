@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+/* 头部 */
+/* .header{
+    height: 700px;
+    background: url(../img/首页/0_img_banner3_bg.png) no-repeat right;
+} */
+.head {
+    position: fixed;
+    top: 0;
+    background-color:#007aff ;
+    width: 100%;
+    z-index: 999;/*优先显示*/
+}
+.head .container{
+    height: 80px;
+    display: flex;  
+}
+/* logo */
+.container .logo{
+    line-height: 80px;
+    width: 140px;
+    height: 80px;
+}
+
+/* 头部导航栏 */
+.container .nav_bar .nav{
+    top: 0px;
+    position: static;
+    width: 710px;
+    height: 80px;
+    display: flex;
+    font-size: 16px;
+    padding-left: 50px;
+    margin-left: 100px;
+}
+.head .nav_bar .nav a{
+    color: white;
+    margin-top: 20px;
+}
+
+/* 登录按钮 */
+.container .login{
+    width: 110px;
+    height: 40px;
+    margin-top: 20px;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 100px;
+}
+.login a{
+    color: white;
+    line-height: 40px;
+}
+/* 头部广告 */
+/* .head_ad{
+    height: 610px;
+} */
+/* .text_top{
+    
+    height: 100px;
+    width: 250px;
+    margin-top: 250px;
+    margin-left: 400px;
+    color: white;/* background-color: red; 
+} */
+/* .text_top p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.now{
+    width: 150px;
+    height: 40px;
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+.now a{
+    color: white;
+    font-size: 18px;
+    line-height: 40px;
+}
+.header .head_ad{
+    display: flex;
+    justify-content: space-between;
+}
+.ad_img img{
+    height: 810px;
+} */
